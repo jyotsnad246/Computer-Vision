@@ -22,3 +22,8 @@ for (x, y, width, height) in detected_faces:
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 
+# the following lines perform the same thing just not on the graph
+
+cv2.imshow('COMPUTER VISION',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
